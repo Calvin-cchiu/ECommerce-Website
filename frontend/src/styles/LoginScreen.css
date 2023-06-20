@@ -1,0 +1,17 @@
+button{
+    margin-top: 1rem;
+}
+
+.form-group {
+    margin-top: 1rem;
+}
+
+
+#register{
+    text-decoration: underline;
+}
+
+#register:hover{
+    color: rgb(132, 132, 245);
+    transition: color .15s ease-in-out;
+}

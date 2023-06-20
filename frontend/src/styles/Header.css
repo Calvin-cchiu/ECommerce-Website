@@ -1,0 +1,22 @@
+a{
+    text-decoration: none;
+}
+
+
+.navbar-brand:hover{
+    color: grey;
+    transition: color .15s ease-in-out;
+}
+
+#username{
+    color: grey;
+}
+
+#username:focus{
+    color: white;
+}
+
+#username:hover{
+    color: white;
+    transition: color .15s ease-in-out;
+}

@@ -1,0 +1,17 @@
+button{
+    margin-top: 1rem;
+}
+
+.form-group {
+    margin-top: 1rem;
+}
+
+
+#login{
+    text-decoration: underline;
+}
+
+#login:hover{
+    color: rgb(132, 132, 245);
+    transition: color .15s ease-in-out;
+}
