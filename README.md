@@ -1,9 +1,9 @@
-A Full-stack ECommerce Project with following tech-stack
+A Full-stack ECommerce website Project, tech-stack as following :
 
 backend:
 - django
 - djangorestframework
-- djangorestframework-simplejwt
+- simplejwt
 
 frontend:
 - react
