@@ -9,7 +9,7 @@ class Product(models.Model):
     _id = models.AutoField(primary_key=True, editable=False)
     user_id = models.ForeignKey(User, on_delete=models.SET_NULL, null=True)
     name = models.CharField(max_length=200, null=False, blank=False)
-    image = models.ImageField(null=True, blank=True)
+    image = models.ImageField(null=True, blank=True, default='/sample.png')
     brand = models.CharField(max_length=200, null=True, blank=True)
     category = models.CharField(max_length=200, null=True, blank=True)
     count_in_stock = models.IntegerField(null=True, blank=True, default=0)
